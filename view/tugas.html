@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Ezzy</title>
+    <link rel="stylesheet" type="text/css" href="../css/style_tugas.css"/>
+    <script src="../js/js.js" crossorigin="anonymous"></script>
+    <script src="../js/popup.js"></script>
+</head>
+<body>
+    <section>
+        <!--- navigation --->
+        <nav class="sticky">
+            <!--- logo --->
+            <a href="../index.html" class="logo">Ezzy</a>
+            <!--- menu --->
+            <ul>
+                <li><a href="../index.html" class="active">Home</a></li>
+                <li><a href="tugas.html">Tugas</a></li>
+            </ul>
+        </nav>
+ 
+    <!-- tugas -->
+    <div class="tugas">
+        <!--text-->
+        <div class="tugas-text">
+            <p>Tugas</p>
+        </div>
+         
+        <div class="box-container">
+        <!--- 1 --->
+            <div class="box-1">
+                <span>1</span>
+                <p class="heading">Technical Writing</p>
+                <p class="details">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                <button data-popup="popup-1">Read More</button>
+            </div>
+        <!--- 2 --->
+            <div class="box-2">
+                <span>2</span>
+                <p class="heading">Web Design</p>
+                <p class="details">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                <button data-popup="popup-2">Read More</button>
+            </div>
+        <!--- 3 --->
+            <div class="box-3">
+                <span>3</span>
+                <p class="heading">Web Development</p>
+                <p class="details">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                <button data-popup="popup-3">Read More</button>
+            </div>
+        </div>
+    </div>   
+
+
+    <!-- popup -->
+    <!-- Popup for Box-1 -->
+<div id="popup-1" class="popup">
+    <div class="popup-content">
+        <span class="close-btn" data-popup-close="popup-1">&times;</span>
+        <h2 class="popup-heading">Technical Writing</h2>
+        <p class="popup-details">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+    </div>
+</div>
+    <!-- Popup for Box-2 -->
+<div id="popup-2" class="popup">
+    <div class="popup-content">
+        <span class="close-btn" data-popup-close="popup-2">&times;</span>
+        <h2 class="popup-heading">Technical Writing</h2>
+        <p class="popup-details">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+    </div>
+</div>
+    <!-- Popup for Box-3 -->
+<div id="popup-3" class="popup">
+    <div class="popup-content">
+        <span class="close-btn" data-popup-close="popup-3">&times;</span>
+        <h2 class="popup-heading">Technical Writing</h2>
+        <p class="popup-details">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+    </div>
+</div>
+
+
+</body>
+</html>
